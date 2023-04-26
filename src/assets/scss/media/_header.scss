@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+
+	header {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	nav {  
+
+		.nav__items {
+			display: none;
+		}
+	}
+
+	#graphicLines {
+		display: inline;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 2;
+		width: 300px;
+	}
+
+	.search__wrap {
+		max-width: 1000px;
+		margin: 0 auto;
+		background: #FFF;
+		padding: 1.85rem 0.25rem;
+		transform: translateY(0);
+
+		h1 {
+			font-size: 1.2rem;
+			color: #000;
+		}
+	
+		#searchField {
+			font-size: 1.1rem;
+			margin: 1rem 0 1rem 1rem;
+			outline: 1px solid $light-grey;				
+		}
+
+		#searchBtn {
+			margin: 1rem 1rem 1rem 0;
+			outline: 1px solid $light-grey;	
+			background-color: $purple; 
+			color: #FFF; 
+			font-size: 1rem;
+		}
+	}
+}

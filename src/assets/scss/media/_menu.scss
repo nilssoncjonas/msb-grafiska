@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+	
+		.menu {
+		position: static;
+		transform: translateX(0);
+		padding: 0;
+		width: initial;
+		height: initial;
+		z-index: initial;
+		max-width: 1000px;
+		margin: 0 auto;
+		margin-bottom: 2rem;
+
+		#menuClose {
+			display: none;
+		}
+
+		div {
+			
+			span {
+				padding: 0;
+			}
+		}
+
+		ul {
+			max-width: 1000px;
+			margin: 0 auto;
+			list-style: none;
+			display: flex;
+			flex-wrap: wrap;
+
+			li {
+				width: fit-content;
+				margin: 0.75rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,78 @@
+@media screen and (min-width: 768px) {
+	section {
+		min-height: 45vh;
+		padding-top: 5%;
+	}
+
+	.article__wrap {
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 3rem;
+		width: 100%;
+		max-width: 1200px;
+		div {
+			width: 40%;
+		}
+	}
+
+	#all__news {
+		width: 300px;
+	}
+
+	#startReport {
+		margin: 5rem auto;
+
+		.startReport__wrap {
+			width: 50%;
+			img {
+				max-width: 960px;
+				margin: 0 auto;
+			}
+
+			div {
+				padding: 2rem;
+				max-width: 960px;
+				margin: 0 auto;
+			}
+		}
+	}
+
+	#info {
+		max-width: 768px;
+		margin: 0 auto;
+	}
+
+	.next {
+		width: 360px;
+		margin: 2rem auto;
+	}
+
+	#report {
+		max-width: 768px;
+		margin: 0 auto;
+		.reportForm__wrap {
+			width: 60%;
+		}
+	}
+
+	#user {
+		max-width: 768px;
+		margin: 0 auto;
+
+		.userForm__wrap {
+			width: 60%;
+			margin: 0 auto;
+
+			.submit__button {
+				width: 360px;
+				margin: 5rem auto;
+				padding: 0.6rem;
+			}
+		}
+	}
+	
+	#done {
+		max-width: 768px;
+		margin: 0 auto;
+	}
+}
